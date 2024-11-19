@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Css -->
+    <link rel="stylesheet" href="Src/Css/style.css">
+    <!-- Titulo Aba -->
+    <title>Gerador de Números</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Gerador de Números</h2>
+
+        <!-- Onde é colocado o Menor Número -->
+        <div class="input-group">
+            <div class="input-field">
+                <label for="min">Mín:</label>
+                <input id="min" type="number" name="min">
+            </div>
+
+            <!-- Onde é colocado o Maior Número -->
+            <div class="input-field">
+                <label for="max">Máx:</label>
+                <input id="max" type="number" name="max">
+            </div>
+        </div>
+
+        <!-- Botão para Gerar o Número -->
+        <button id="generate">Gerar</button>
+
+        <!-- Resultado do Número -->
+        <div id="result">
+            <span>
+                00
+            </span>
+        </div>
+    </div>
+    <!-- Link Js -->
+    <script type="text/javascript" src="Src/Js/script.js"></script>
+</body>
+</html>
